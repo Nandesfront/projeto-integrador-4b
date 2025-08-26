@@ -1,0 +1,12 @@
+<p>Visualizar ou ocultar a lista</p>
+<button (click)="toggleMensagem()">Mostrar/Ocultar</button>
+<p *ngIf="mostrarMensagem">A lista de cursos está visível</p>
+<hr>
+
+<ol *ngIf="mostrarMensagem" [ngStyle]="{'font-size': tamanhoFonte}">
+<li *ngFor="let curso of cursos">
+  <p [ngClass]="curso.ativo ? 'ativo' : 'inativo'">{{curso.nome}} - {{curso.ativo ? 'Ativo' : 'Inativo'}}</p></li>
+</ol>
+
+<button (click)="aumentarFonte()" > + </button>
+<button (click)="diminuirFonte()" > - </button>
