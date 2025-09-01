@@ -7,10 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './estoque.css'
 })
 export class Estoque {
-  produtos = [
-    {nome: 'Caneta', preco: '10', estoque: 10},
-    {nome: 'Lápis', preco: '5', estoque: 0},
-    {nome: 'Caderno', preco: '25',estoque: 5},
-    {nome: 'Borracha', preco: '2', estoque: 2}
-  ];
+produtos = [
+  { nome: 'Produto 1', preco: '10.00', estoque: 5 },
+  { nome: 'Produto 2', preco: '20.00', estoque: 3 }
+];
 }

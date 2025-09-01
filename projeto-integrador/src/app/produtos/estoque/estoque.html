@@ -1,5 +1,3 @@
-<ul>
-    <li ngFor="let produtos of produtos">
-        <p>{{produtos.nome}} - {{produtos.preco}} - {{produtos.estoque}}</p>
-    </li>
-</ul>
+<li *ngFor="let produto of produtos">
+    <p>{{produto.nome}} - {{produto.preco}} - {{produto.estoque}}</p>
+</li>

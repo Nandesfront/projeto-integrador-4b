@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Cadastrar } from './cadastrar';
+import { BotaoComponent } from './botao-component';
 
-describe('Cadastrar', () => {
-  let component: Cadastrar;
-  let fixture: ComponentFixture<Cadastrar>;
+describe('BotaoComponent', () => {
+  let component: BotaoComponent;
+  let fixture: ComponentFixture<BotaoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [Cadastrar]
+      declarations: [BotaoComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Cadastrar);
+    fixture = TestBed.createComponent(BotaoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
