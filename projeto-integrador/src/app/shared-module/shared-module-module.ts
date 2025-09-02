@@ -11,6 +11,9 @@ import { BotaoComponent } from './botao-component/botao-component';
   imports: [
     CommonModule,
     SharedModuleRoutingModule
+  ],
+  exports: [
+    BotaoComponent
   ]
 })
 export class SharedModuleModule { }

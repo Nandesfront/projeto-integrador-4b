@@ -8,11 +8,4 @@ import { Component } from '@angular/core';
 })
 export class Cadastrar {
 
-  nome = 'Flavio';
-
-  caminhoImagem = '/workspaces/projeto-integrador-4b/projeto-integrador/public/favicon.ico';
-
-  dizerOi(){
-      this.nome = 'alunos do quarto b';
-  }
 }
